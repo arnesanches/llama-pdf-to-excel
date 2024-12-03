@@ -31,7 +31,7 @@ def ajustar_colunas_excel(caminho_arquivo):
 
     # Salva as alterações no arquivo Excel
     wb.save(caminho_arquivo)
-    
+
 
 # Função para transformar tabelas em Markdown em arquivos Excel
 def transformar_markdown_excel(texto, num_pagina):
@@ -51,3 +51,18 @@ def transformar_markdown_excel(texto, num_pagina):
 
             # Ajusta as colunas do arquivo Excel gerado
             ajustar_colunas_excel(caminho_arquivo)
+
+
+# Diretório onde estão as páginas no formato Markdown
+pasta_paginas = "my_pdf"
+# Lista de arquivos ordenada pelo tamanho do nome
+lista_paginas = sorted(os.listdir(pasta_paginas), key=len)
+
+# Itera pelas páginas para processar os arquivos Markdown e converter tabelas para Excel
+for i, pagina in enumerate(lista_paginas):
+    with open(f"my_pdf/{pagina}", "r", encoding="utf-8") as arquivo:
+        texto = arquivo.read()  # Lê o conteúdo da página
+
+    num_pagina = i + 1  # Número da página atual
+    transformar_markdown_excel(texto, num_pagina)  # Processa as tabelas da página
+
