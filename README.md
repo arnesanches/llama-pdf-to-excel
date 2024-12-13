@@ -14,6 +14,7 @@ The project structure includes the following elements: two Python scripts, one f
 
 Contributions to the project are welcome. If you have suggestions or encounter issues, feel free to open a pull request or report them in the issues section.
 
+---
 
 ### Português
 
