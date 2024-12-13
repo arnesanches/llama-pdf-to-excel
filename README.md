@@ -1,6 +1,6 @@
-English / Português
+### English 
 
-Llama PDF to Excel
+# Llama PDF to Excel
 
 This project aims to extract tables from PDF files and convert them into properly formatted Excel (.xlsx) files. The process is divided into two main stages, each executed by a Python script.
 
@@ -15,8 +15,9 @@ The project structure includes the following elements: two Python scripts, one f
 Contributions to the project are welcome. If you have suggestions or encounter issues, feel free to open a pull request or report them in the issues section.
 
 
+### Português
 
-Llama PDF to Excel
+# Llama PDF to Excel
 
 Este projeto tem como objetivo extrair tabelas de arquivos PDF e convertê-las em arquivos Excel (.xlsx) com formatação adequada. O processo é dividido em duas etapas principais, cada uma executada por um script Python.
 
