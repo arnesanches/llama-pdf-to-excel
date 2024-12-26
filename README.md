@@ -1,6 +1,6 @@
 #### English 
 
-# PDF Table Extraction to Excel Project
+# Llama PDF to Excel
 
 This project aims to extract tables from PDF files and convert them into Excel (.xlsx) files with proper formatting. The process is divided into two main stages, each executed by a Python script.
 
