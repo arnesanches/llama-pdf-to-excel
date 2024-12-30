@@ -2,7 +2,7 @@
 
 # Llama PDF to Excel
 
-This project uses Llama Parse, an AI-powered document analysis tool, to extract tables from PDF files and convert them into Excel (.xlsx) format with proper formatting. The process is divided into two main stages, each executed by a Python script.
+This Python script uses Llama Parse, a powerful AI-driven document analysis tool, to extract tables from PDF files and convert them into Excel spreadsheets. Llama Parse employs advanced natural language processing and computer vision techniques to identify and extract complex tables, even from PDFs with varied layouts. This automation eliminates the need for manual copy-pasting, saving time and reducing errors.
 
 ## Project Structure
 
@@ -75,7 +75,7 @@ This project is licensed under the MIT License.
 
 # Llama PDF to Excel
 
-Este projeto utiliza o Llama Parse, uma ferramenta de análise de documentos com IA, para extrair tabelas de arquivos PDF e convertê-las para o formato Excel (.xlsx) com a formatação adequada. O processo é dividido em duas etapas principais, cada uma executada por um script Python.
+Este script Python utiliza o Llama Parse, uma poderosa ferramenta de análise de documentos com inteligência artificial, para extrair tabelas de arquivos PDF e convertê-las em planilhas Excel. O Llama Parse aplica técnicas avançadas de processamento de linguagem natural e visão computacional para identificar e extrair tabelas complexas, mesmo em PDFs com layouts variados. Essa automação elimina a necessidade de copiar e colar manualmente, economizando tempo e reduzindo erros.
 
 ## Estrutura do Projeto
 
