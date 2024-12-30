@@ -21,9 +21,14 @@ The project consists of the following elements:
 Before running the scripts, follow these steps:
 
 1. Ensure Python 3.7 or higher is installed. You can download the latest version at [https://www.python.org/downloads/](https://www.python.org/downloads/)
-2. Ensure the necessary dependencies are installed in your Python environment, such as **llama_parse**, **openpyxl**, and **pandas**. You can install these dependencies by running: pip install llama-parse openpyxl pandas
-3. Manually create the **my_pdf** and **tabelas** folders in the same directory where the scripts are located. These folders are needed to store intermediate files and final results.
-4. Make sure the PDF file to be processed is in the same directory as the scripts and named **resultado.pdf**.
+2. Ensure the necessary dependencies are installed in your Python environment, such as **llama_parse**, **openpyxl**, and **pandas**. You can install these dependencies by running:
+   
+```bash
+pip install llama-parse openpyxl pandas
+```
+
+4. Manually create the **my_pdf** and **tabelas** folders in the same directory where the scripts are located. These folders are needed to store intermediate files and final results.
+5. Make sure the PDF file to be processed is in the same directory as the scripts and named **resultado.pdf**.
 
 ### Step 2: Extract Tables
 
@@ -89,9 +94,14 @@ O projeto é composto pelos seguintes elementos:
 Antes de executar os scripts, siga os seguintes passos:
 
 1. Certifique-se de que Python 3.7 ou superior está instalado. Você pode baixar a versão mais recente em [https://www.python.org/downloads/](https://www.python.org/downloads/).
-2. Verifique se as dependências necessárias estão instaladas no seu ambiente Python, como **llama_parse**, **openpyxl** e **pandas**. Você pode instalar essas dependências utilizando o comando: pip install llama-parse openpyxl pandas
-3. Crie manualmente as pastas **my_pdf** e **tabelas** no mesmo diretório onde os scripts estão localizados. Essas pastas são necessárias para armazenar os arquivos intermediários e os resultados finais.
-4. Certifique-se de que o arquivo PDF a ser processado está no mesmo diretório dos scripts e nomeado como **resultado.pdf**.
+2. Verifique se as dependências necessárias estão instaladas no seu ambiente Python, como **llama_parse**, **openpyxl** e **pandas**. Você pode instalar essas dependências utilizando o comando:
+
+```bash
+pip install llama-parse openpyxl pandas
+```
+   
+4. Crie manualmente as pastas **my_pdf** e **tabelas** no mesmo diretório onde os scripts estão localizados. Essas pastas são necessárias para armazenar os arquivos intermediários e os resultados finais.
+5. Certifique-se de que o arquivo PDF a ser processado está no mesmo diretório dos scripts e nomeado como **resultado.pdf**.
 
 ### Passo 2: Extração de Tabelas
 
