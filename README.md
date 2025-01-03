@@ -1,3 +1,7 @@
+### Project Demonstration / Demonstração do Projeto  
+
+![Project Demonstration / Demonstração do Projeto](https://github.com/arnesanches/llama-pdf-to-excel/blob/main/Anima%C3%A7%C3%A3o.gif?raw=true)
+
 #### English 
 
 # Llama PDF to Excel
@@ -69,6 +73,7 @@ Contributions are welcome! Feel free to open issues or pull requests in this rep
 
 This project is licensed under the MIT License.
 
+##
 ---
 
 #### Português
@@ -141,3 +146,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull r
 ## Licença
 
 Este projeto está licenciado sob a MIT License.
+
+##
+---
